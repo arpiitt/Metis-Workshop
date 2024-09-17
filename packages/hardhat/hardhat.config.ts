@@ -46,6 +46,26 @@ const config: HardhatUserConfig = {
         enabled: process.env.MAINNET_FORKING_ENABLED === "true",
       },
     },
+    andromeda: {
+      url: "https://andromeda.metis.io/?owner=1888",
+      accounts: [deployerPrivateKey],
+      verify: {
+        etherscan: {
+          apiKey: "apikey is not required, just set a placeholder",
+          apiUrl: "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
+        },
+      },
+    },
+    metisSepolia: {
+      url: "https://sepolia.metisdevops.link/",
+      accounts: [deployerPrivateKey],
+      verify: {
+        etherscan: {
+          apiKey: "apikey is not required, just set a placeholder",
+          apiUrl: "https://sepolia.explorer.metisdevops.link",
+        },
+      },
+    },
     mainnet: {
       url: `https://eth-mainnet.alchemyapi.io/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],
