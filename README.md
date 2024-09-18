@@ -1,11 +1,11 @@
 # 🏗 Scaffold-ETH 2
 
 
-# Deploying to the Metis Sepolia network
+# Deployed to the Metis Sepolia network
 yarn deploy --network metisSepolia
 <img src="./Assets/verify-ui1.png">
 
-# Deploying to the Andromeda network
+# Deployed to the Andromeda network
 yarn deploy --network andromeda
 <img src="./Assets/verify-ui2.png">
 
