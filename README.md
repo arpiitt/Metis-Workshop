@@ -1,5 +1,15 @@
 # 🏗 Scaffold-ETH 2
 
+
+# Deploying to the Metis Sepolia network
+yarn deploy --network metisSepolia
+<img src="./Assets/verify-ui1.png">
+
+# Deploying to the Andromeda network
+yarn deploy --network andromeda
+<img src="./Assets/verify-ui2.png">
+
+
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
